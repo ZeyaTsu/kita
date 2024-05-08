@@ -6,3 +6,6 @@ def arg(z:complex):
 
 def module(z:complex):
     return sqrt((z.real)**2 + (z.imag)**2)
+
+def conjugate(z:complex):
+    return complex(z.real, -z.imag)

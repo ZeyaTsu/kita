@@ -69,3 +69,7 @@ def gamma(x):
             a += p[i] / (x + i)
         t = x + g + 0.5
         return sqrt(2 * pi) * t ** (x + 0.5) * exp(-t) * a
+
+def nCk(n:int, k:int):
+    if k <= n:
+        return factorial(n)/(factorial(k)*factorial(n-k))
