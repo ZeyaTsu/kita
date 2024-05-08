@@ -5,6 +5,9 @@
 
 A playful and versatile math Python library, designed for tinkering with numbers, exploring mathematical concepts, and having fun along the way.
 
+> [!NOTE]  
+> Not released yet  
+
 ---
 
 
