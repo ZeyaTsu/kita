@@ -9,9 +9,13 @@ def __factorial(n:int):
         result *= i
     return result
 
-def deg(x):
-    rad = x * __pi/180
+def deg(radians):
+    rad = radians * 180/__pi
     return rad
+
+def rad(deg):
+    deg = deg * __pi/180
+    return deg
 
 def sin(x:float):
     sinx = (__exp(x*1j) - __exp(x*-1j))/2
