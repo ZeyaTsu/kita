@@ -18,7 +18,7 @@ def rad(deg):
     return deg
 
 def sin(x:float):
-    sinx = (__exp(x*1j) - __exp(x*-1j))/2
+    sinx = (__exp(x*1j) - __exp(x*-1j))/2j
     if sinx.imag == 0:
         return sinx.real
     elif sinx.real == 0:
